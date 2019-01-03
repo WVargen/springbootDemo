@@ -11,10 +11,12 @@
     <groupId>com.demo</groupId>
     <artifactId>springwebdemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springwebdemo</name>
-    <description>Demo project for Spring Boot</description>
+    <name>Spring Web Demo</name>
+    <packaging>war</packaging>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
 
@@ -63,9 +65,26 @@
             <artifactId>druid</artifactId>
             <version>1.0.29</version>
         </dependency>
+
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

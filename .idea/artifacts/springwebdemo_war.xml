@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springwebdemo:war">
+    <output-path>$PROJECT_DIR$/springwebdemo/target</output-path>
+    <root id="archive" name="springwebdemo-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springwebdemo:war exploded" />
+    </root>
+  </artifact>
+</component>
