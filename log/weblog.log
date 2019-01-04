@@ -1,195 +1,25 @@
-2019-01-03 12:44:39.145  INFO 8880 --- [main] c.d.springwebdemo.SpringWebApplication   : Starting SpringWebApplication on vargen-PC with PID 8880 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
-2019-01-03 12:44:39.152  INFO 8880 --- [main] c.d.springwebdemo.SpringWebApplication   : No active profile set, falling back to default profiles: default
-2019-01-03 12:44:41.712  INFO 8880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2019-01-03 12:44:41.760  INFO 8880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-01-03 12:44:41.760  INFO 8880 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-01-03 12:44:41.769  INFO 8880 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-2019-01-03 12:44:41.769  INFO 8880 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-2019-01-03 12:44:41.770  INFO 8880 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019-01-03 12:44:41.770  INFO 8880 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019-01-03 12:44:42.866  INFO 8880 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-2019-01-03 12:44:43.010  INFO 8880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-01-03 12:44:43.010  INFO 8880 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3601 ms
-2019-01-03 12:44:44.094  INFO 8880 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-03 12:44:44.249  WARN 8880 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-01-03 12:44:44.282  INFO 8880 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-01-03 12:44:44.525  INFO 8880 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/blogimg/**'], []
-2019-01-03 12:44:44.525  INFO 8880 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/index.html'], []
-2019-01-03 12:44:44.526  INFO 8880 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
-2019-01-03 12:44:44.581  INFO 8880 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fcfca62, org.springframework.security.web.context.SecurityContextPersistenceFilter@27a2a089, org.springframework.security.web.header.HeaderWriterFilter@7f08caf, org.springframework.security.web.authentication.logout.LogoutFilter@abff8b7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53b8afea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@706eab5d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4893b344, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@499ef98e, org.springframework.security.web.session.SessionManagementFilter@2330e3e0, org.springframework.security.web.access.ExceptionTranslationFilter@3672276e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40712ee9]
-2019-01-03 12:44:44.702  INFO 8880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2019-01-03 12:44:44.706  INFO 8880 --- [main] c.d.springwebdemo.SpringWebApplication   : Started SpringWebApplication in 6.658 seconds (JVM running for 9.584)
-2019/01/03-12:45 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Starting SpringWebApplication on vargen-PC with PID 8592 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
-2019/01/03-12:45 [main] INFO  com.demo.springwebdemo.SpringWebApplication- No active profile set, falling back to default profiles: default
-2019/01/03-12:45 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
-2019/01/03-12:45 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
-2019/01/03-12:45 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019/01/03-12:45 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-2019/01/03-12:45 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-2019/01/03-12:45 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019/01/03-12:45 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019/01/03-12:45 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-2019/01/03-12:45 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
-2019/01/03-12:45 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3727 ms
-2019/01/03-12:46 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
-2019/01/03-12:46 [main] WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019/01/03-12:46 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page: class path resource [static/index.html]
-2019/01/03-12:46 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/blogimg/**'], []
-2019/01/03-12:46 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/index.html'], []
-2019/01/03-12:46 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/static/**'], []
-2019/01/03-12:46 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9e2ad91, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b59501e, org.springframework.security.web.header.HeaderWriterFilter@285f38f6, org.springframework.security.web.authentication.logout.LogoutFilter@107f4980, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e2a3040, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4eed2acf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52d6cd34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64524dd, org.springframework.security.web.session.SessionManagementFilter@3ab6678b, org.springframework.security.web.access.ExceptionTranslationFilter@37d871c2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@144ab54]
-2019/01/03-12:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
-2019/01/03-12:46 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Started SpringWebApplication in 6.742 seconds (JVM running for 8.981)
-2019/01/03-12:48 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019/01/03-12:48 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
-2019/01/03-12:48 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 14 ms
-2019/01/03-12:48 [http-nio-8081-exec-6] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
-2019/01/03-12:48 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Starting SpringWebApplication on vargen-PC with PID 12124 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
-2019/01/03-12:48 [main] INFO  com.demo.springwebdemo.SpringWebApplication- No active profile set, falling back to default profiles: default
-2019/01/03-12:48 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
-2019/01/03-12:48 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
-2019/01/03-12:48 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019/01/03-12:48 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-2019/01/03-12:48 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-2019/01/03-12:48 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019/01/03-12:48 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019/01/03-12:48 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-2019/01/03-12:48 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
-2019/01/03-12:48 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3247 ms
-2019/01/03-12:48 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
-2019/01/03-12:48 [main] WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019/01/03-12:48 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page: class path resource [static/index.html]
-2019/01/03-12:48 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/blogimg/**'], []
-2019/01/03-12:48 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/index.html'], []
-2019/01/03-12:48 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/static/**'], []
-2019/01/03-12:48 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79d06bbd, org.springframework.security.web.context.SecurityContextPersistenceFilter@4eed2acf, org.springframework.security.web.header.HeaderWriterFilter@3ab6678b, org.springframework.security.web.authentication.logout.LogoutFilter@1d540566, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@74294c1a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57c47a9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27b2faa6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47a7a101, org.springframework.security.web.session.SessionManagementFilter@2b59501e, org.springframework.security.web.access.ExceptionTranslationFilter@285f38f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ecab872]
-2019/01/03-12:48 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
-2019/01/03-12:48 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Started SpringWebApplication in 6.147 seconds (JVM running for 8.048)
-2019/01/03-12:48 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019/01/03-12:48 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
-2019/01/03-12:48 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 10 ms
-2019/01/03-12:48 [http-nio-8081-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
-2019/01/03-12:49 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Starting SpringWebApplication on vargen-PC with PID 4176 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
-2019/01/03-12:49 [main] INFO  com.demo.springwebdemo.SpringWebApplication- No active profile set, falling back to default profiles: default
-2019/01/03-12:49 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8084 (http)
-2019/01/03-12:49 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
-2019/01/03-12:49 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019/01/03-12:49 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-2019/01/03-12:49 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-2019/01/03-12:49 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019/01/03-12:49 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019/01/03-12:49 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-2019/01/03-12:49 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
-2019/01/03-12:49 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3078 ms
-2019/01/03-12:49 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
-2019/01/03-12:49 [main] WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019/01/03-12:49 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page: class path resource [static/index.html]
-2019/01/03-12:49 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/blogimg/**'], []
-2019/01/03-12:49 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/index.html'], []
-2019/01/03-12:49 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/static/**'], []
-2019/01/03-12:49 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cb5bb88, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e17913b, org.springframework.security.web.header.HeaderWriterFilter@151ef57f, org.springframework.security.web.authentication.logout.LogoutFilter@3abfe845, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f288c14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64f16277, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1846579f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17b6d426, org.springframework.security.web.session.SessionManagementFilter@5524b72f, org.springframework.security.web.access.ExceptionTranslationFilter@ad9e63e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a14c44f]
-2019/01/03-12:49 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8084 (http) with context path ''
-2019/01/03-12:49 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Started SpringWebApplication in 6.583 seconds (JVM running for 8.397)
-2019/01/03-12:49 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019/01/03-12:49 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
-2019/01/03-12:49 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 10 ms
-2019/01/03-12:49 [http-nio-8084-exec-8] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
-2019/01/03-15:44 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Starting SpringWebApplication on vargen-PC with PID 5760 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
-2019/01/03-15:44 [main] INFO  com.demo.springwebdemo.SpringWebApplication- No active profile set, falling back to default profiles: default
-2019/01/03-15:44 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8084 (http)
-2019/01/03-15:44 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
-2019/01/03-15:44 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019/01/03-15:44 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-2019/01/03-15:44 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-2019/01/03-15:44 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019/01/03-15:44 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019/01/03-15:44 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-2019/01/03-15:44 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
-2019/01/03-15:44 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 5821 ms
-2019/01/03-15:44 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
-2019/01/03-15:44 [main] WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019/01/03-15:44 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page: class path resource [static/index.html]
-2019/01/03-15:44 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/blogimg/**'], []
-2019/01/03-15:44 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/index.html'], []
-2019/01/03-15:44 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/static/**'], []
-2019/01/03-15:44 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4492eede, org.springframework.security.web.context.SecurityContextPersistenceFilter@2de50ee4, org.springframework.security.web.header.HeaderWriterFilter@46731692, org.springframework.security.web.authentication.logout.LogoutFilter@6cd166b8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f08fdce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47fbc56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b9632d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cbc8d0f, org.springframework.security.web.session.SessionManagementFilter@3db663d0, org.springframework.security.web.access.ExceptionTranslationFilter@228cea97, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c2e3264]
-2019/01/03-15:44 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8084 (http) with context path ''
-2019/01/03-15:44 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Started SpringWebApplication in 10.326 seconds (JVM running for 13.418)
-2019/01/03-15:45 [http-nio-8084-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019/01/03-15:45 [http-nio-8084-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
-2019/01/03-15:45 [http-nio-8084-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 29 ms
-2019/01/03-15:45 [http-nio-8084-exec-8] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
-2019/01/03-16:00 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Starting SpringWebApplication on vargen-PC with PID 12324 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
-2019/01/03-16:00 [main] INFO  com.demo.springwebdemo.SpringWebApplication- No active profile set, falling back to default profiles: default
-2019/01/03-16:00 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8084 (http)
-2019/01/03-16:00 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
-2019/01/03-16:00 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019/01/03-16:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-2019/01/03-16:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-2019/01/03-16:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019/01/03-16:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019/01/03-16:00 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-2019/01/03-16:00 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
-2019/01/03-16:00 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3573 ms
-2019/01/03-16:00 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
-2019/01/03-16:00 [main] WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019/01/03-16:00 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page: class path resource [static/index.html]
-2019/01/03-16:00 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/blogimg/**'], []
-2019/01/03-16:00 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/index.html'], []
-2019/01/03-16:00 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/static/**'], []
-2019/01/03-16:00 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d025d1d, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ab6678b, org.springframework.security.web.header.HeaderWriterFilter@37d871c2, org.springframework.security.web.authentication.logout.LogoutFilter@2a685eba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a066689, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b59501e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d9f64c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74294c1a, org.springframework.security.web.session.SessionManagementFilter@285f38f6, org.springframework.security.web.access.ExceptionTranslationFilter@4acb2510, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a87b51]
-2019/01/03-16:00 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8084 (http) with context path ''
-2019/01/03-16:00 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Started SpringWebApplication in 6.792 seconds (JVM running for 8.996)
-2019/01/03-16:01 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019/01/03-16:01 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
-2019/01/03-16:01 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 19 ms
-2019/01/03-16:01 [http-nio-8084-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
-2019/01/03-16:05 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Starting SpringWebApplication on vargen-PC with PID 14312 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
-2019/01/03-16:05 [main] INFO  com.demo.springwebdemo.SpringWebApplication- No active profile set, falling back to default profiles: default
-2019/01/03-16:05 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8084 (http)
-2019/01/03-16:05 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
-2019/01/03-16:05 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019/01/03-16:05 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-2019/01/03-16:05 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-2019/01/03-16:05 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019/01/03-16:05 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019/01/03-16:05 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-2019/01/03-16:05 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
-2019/01/03-16:05 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 4671 ms
-2019/01/03-16:05 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
-2019/01/03-16:05 [main] WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019/01/03-16:05 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page: class path resource [static/index.html]
-2019/01/03-16:05 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/blogimg/**'], []
-2019/01/03-16:05 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/index.html'], []
-2019/01/03-16:05 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/static/**'], []
-2019/01/03-16:05 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3872bc37, org.springframework.security.web.context.SecurityContextPersistenceFilter@62db0521, org.springframework.security.web.header.HeaderWriterFilter@350a94ce, org.springframework.security.web.authentication.logout.LogoutFilter@642505c7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@523d6bdb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ef1a1b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e1459ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a87b51, org.springframework.security.web.session.SessionManagementFilter@b0fc838, org.springframework.security.web.access.ExceptionTranslationFilter@abff8b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10641c09]
-2019/01/03-16:05 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8084 (http) with context path ''
-2019/01/03-16:05 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Started SpringWebApplication in 6.961 seconds (JVM running for 9.205)
-2019/01/03-16:05 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019/01/03-16:05 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
-2019/01/03-16:05 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 12 ms
-2019/01/03-16:05 [http-nio-8084-exec-7] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
-2019/01/03-16:08 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Starting SpringWebApplication on vargen-PC with PID 9500 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
-2019/01/03-16:08 [main] INFO  com.demo.springwebdemo.SpringWebApplication- No active profile set, falling back to default profiles: default
-2019/01/03-16:08 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8084 (http)
-2019/01/03-16:08 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
-2019/01/03-16:08 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/9.0.13
-2019/01/03-16:08 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
-2019/01/03-16:08 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
-2019/01/03-16:08 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2019/01/03-16:08 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2019/01/03-16:09 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
-2019/01/03-16:09 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
-2019/01/03-16:09 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3603 ms
-2019/01/03-16:09 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
-2019/01/03-16:09 [main] WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019/01/03-16:09 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page: class path resource [static/index.html]
-2019/01/03-16:09 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/blogimg/**'], []
-2019/01/03-16:09 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/index.html'], []
-2019/01/03-16:09 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/static/**'], []
-2019/01/03-16:09 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@168cd36b, org.springframework.security.web.context.SecurityContextPersistenceFilter@288214b1, org.springframework.security.web.header.HeaderWriterFilter@5fcfca62, org.springframework.security.web.authentication.logout.LogoutFilter@58496c97, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@778d82e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28501a4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34f392be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d8d9199, org.springframework.security.web.session.SessionManagementFilter@24934262, org.springframework.security.web.access.ExceptionTranslationFilter@6c302a1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ba30587]
-2019/01/03-16:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8084 (http) with context path ''
-2019/01/03-16:09 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Started SpringWebApplication in 6.27 seconds (JVM running for 7.9)
-2019/01/03-16:09 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019/01/03-16:09 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
-2019/01/03-16:09 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 12 ms
+2019/01/04-14:32 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Starting SpringWebApplication on vargen-PC with PID 10384 (F:\springbootdemo\springwebdemo\target\classes started by vargen in F:\springbootdemo)
+2019/01/04-14:32 [main] INFO  com.demo.springwebdemo.SpringWebApplication- No active profile set, falling back to default profiles: default
+2019/01/04-14:32 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8084 (http)
+2019/01/04-14:32 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/01/04-14:32 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/9.0.13
+2019/01/04-14:32 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+2019/01/04-14:32 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019/01/04-14:32 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019/01/04-14:32 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019/01/04-14:32 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019/01/04-14:32 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/01/04-14:32 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 18731 ms
+2019/01/04-14:32 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/01/04-14:32 [main] WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/01/04-14:32 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page: class path resource [static/index.html]
+2019/01/04-14:32 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/blogimg/**'], []
+2019/01/04-14:32 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/index.html'], []
+2019/01/04-14:32 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: Ant [pattern='/static/**'], []
+2019/01/04-14:32 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79d06bbd, org.springframework.security.web.context.SecurityContextPersistenceFilter@4eed2acf, org.springframework.security.web.header.HeaderWriterFilter@3ab6678b, org.springframework.security.web.authentication.logout.LogoutFilter@1d540566, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@74294c1a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57c47a9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27b2faa6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47a7a101, org.springframework.security.web.session.SessionManagementFilter@2b59501e, org.springframework.security.web.access.ExceptionTranslationFilter@285f38f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ecab872]
+2019/01/04-14:32 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8084 (http) with context path ''
+2019/01/04-14:32 [main] INFO  com.demo.springwebdemo.SpringWebApplication- Started SpringWebApplication in 40.265 seconds (JVM running for 54.233)
+2019/01/04-14:33 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/01/04-14:33 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/01/04-14:33 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 30 ms
+2019/01/04-14:33 [http-nio-8084-exec-8] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
