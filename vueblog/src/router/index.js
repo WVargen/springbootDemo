@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/components/Login'
+import SiteHome from '@/components/SiteHome'
 import Home from '@/components/Home'
 import ArticleList from '@/components/ArticleList'
 import CateMana from '@/components/CateMana'
@@ -15,9 +16,9 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: '登录',
+      name: '主页',
       hidden: true,
-      component: Login
+      component: SiteHome
     }, {
       path: '/home',
       name: '',

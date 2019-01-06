@@ -10,7 +10,7 @@
           <el-dropdown-menu slot="dropdown">
             <el-dropdown-item command="sysMsg">系统消息</el-dropdown-item>
             <el-dropdown-item command="MyArticle">我的文章</el-dropdown-item>
-            <el-dropdown-item command="MyHome">个人主页</el-dropdown-item>
+            <el-dropdown-item command="Website">网站主页</el-dropdown-item>
             <el-dropdown-item command="logout" divided>退出登录</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
@@ -73,6 +73,9 @@
           }, function () {
             //取消
           })
+        }else if (command == 'Website'){
+          getRequest("/");
+          _this.$router.replace({path: '/'});
         }
       }
     },

@@ -12,7 +12,7 @@
   <div>
     <div style="display: flex;justify-content: flex-start">
       <el-input
-        placeholder="通过标题搜索该分类下的博客..."
+        placeholder="通过标题搜索该分类下的文章..."
         prefix-icon="el-icon-search"
         v-model="keywords" style="width: 400px" size="mini">
       </el-input>

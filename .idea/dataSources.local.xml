@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="mysql@localhost" uuid="8a708ff4-041b-4333-bfb3-cc57968bfd0b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="MYSQL" exact-version="0.0" />
+      <user-name>root</user-name>
+      <introspection-schemas>*:@,vueblog</introspection-schemas>
+    </data-source>
+  </component>
+</project>

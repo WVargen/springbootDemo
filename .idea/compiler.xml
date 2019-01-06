@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springbootweb" target="1.8" />
-      <module name="springwebdemo" target="1.7" />
+      <module name="springwebdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
